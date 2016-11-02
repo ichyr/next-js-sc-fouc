@@ -1,0 +1,25 @@
+{
+  "name": "next-styled-components-fouc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimthedev/next-styled-components-fouc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimthedev/next-styled-components-fouc/issues"
+  },
+  "homepage": "https://github.com/jimthedev/next-styled-components-fouc#readme",
+  "dependencies": {
+    "next": "^1.0.2",
+    "styled-components": "^1.0.10"
+  }
+}
