@@ -2,7 +2,16 @@
 
 I've took ( https://github.com/jimthedev/next-styled-components-fouc ) and applied changes from official example of next-with-styled-components ( https://github.com/zeit/next.js/tree/master/examples/with-styled-components )
 
-![PErformance tab](./static/01_performanceTab.png)
+
+## Visual explanation
+
+Here you can see the performance tab from Chrome dev tools after content loaded (please see the background of second line):
+
+![completed state](./static/01_performanceTab.png)
+
+And here is small image how it looks during initial load:
+
+![initial state](./static/02_perf_initial.png)
 
 ## Getting started
 
