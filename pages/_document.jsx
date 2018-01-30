@@ -9,6 +9,11 @@ export default class MyDocument extends Document {
       sheet.collectStyles(<App {...props} />)
     )
     const styleTags = sheet.getStyleElement()
+
+    console.log('START <================== styleTag')
+    console.log(styleTags)
+    console.log('END   <================== styleTag')
+
     return { ...page, styleTags }
   }
   render() {
