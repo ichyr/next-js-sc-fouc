@@ -41,3 +41,22 @@ I am thinking that this is a problem with styled-components not being bundled in
 ## Based on repo 
 
 https://github.com/jimthedev/next-styled-components-fouc
+
+## Investigation
+
+1. `head` section of initial html of this example 
+
+```
+<head>
+    <meta charSet="utf-8" class="next-head" />
+    <link rel="preload" href="/_next/1517325460755/page/index.js" as="script" />
+    <link rel="preload" href="/_next/1517325460755/page/_error.js" as="script" />
+    <link rel="preload" href="/_next/1517325460755/manifest.js" as="script" />
+    <link rel="preload" href="/_next/1517325460755/commons.js" as="script" />
+    <link rel="preload" href="/_next/1517325460755/main.js" as="script" />
+</head>
+```
+
+doesn't have any styles defined.
+
+2. 
