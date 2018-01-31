@@ -2,6 +2,14 @@
 
 I've took ( https://github.com/jimthedev/next-styled-components-fouc ) and applied changes from official example of next-with-styled-components ( https://github.com/zeit/next.js/tree/master/examples/with-styled-components )
 
+## Environment
+
+- node.js @ 8.9.3
+- npm @ 5.5.1
+
+- next @ 4.2.3
+- styled-components @ 2.4.0
+- babel-plugin-styled-components @ 1.5.0
 
 ## Visual explanation
 
@@ -59,4 +67,6 @@ https://github.com/jimthedev/next-styled-components-fouc
 
 doesn't have any styles defined.
 
-2. 
+2. `getInitialProps` from `MyDocument` class of is not executed (see the `_document.jsx` lines 12 and after)
+
+at least I can't see anything in my both consoles.
