@@ -2,6 +2,8 @@
 
 I've took ( https://github.com/jimthedev/next-styled-components-fouc ) and applied changes from official example of next-with-styled-components ( https://github.com/zeit/next.js/tree/master/examples/with-styled-components )
 
+Riles relative issue here: https://github.com/styled-components/styled-components/issues/1472
+
 ## Environment
 
 - node.js @ 8.9.3
